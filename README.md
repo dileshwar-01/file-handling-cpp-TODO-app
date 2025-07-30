@@ -6,8 +6,9 @@
 
 1-Writing to a file: ofstream fout("todo.txt", ios::app);
 
---- ofstream is used to open files in 'write' mode and and fout is ofstream object. ios::app is used to allow append operations to existing file.
+--- ofstream is used to open files in 'write' mode and fout is ofstream object. ios::app is used to allow append operations to existing file.
 
 
 2- Reading from file: ifstream fin("todo.txt");
+
 --- instream is used to open files in read mode and allows to read the existing file. 
